@@ -1,8 +1,7 @@
 .sendForm {
     position: relative;
-    width: 1140px;
+    width: 1210px;
     height: 40px;
-    margin: 0 auto;
     top: 56px;
     display: flex;
     flex-direction: row;

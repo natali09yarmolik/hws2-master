@@ -1,5 +1,8 @@
 .App {
     --header_height: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .hw {
@@ -7,6 +10,7 @@
     width: 1280px;
     height: 336px;
     margin-top: 144px;
+    margin-left: 70px;
 }
 
 .hwTitle {
@@ -22,4 +26,10 @@
     font-size: 22px;
     line-height: 27px;
     color: #000000;
+}
+.hwTitle2 {
+    top: 490px;
+}
+.hwTitle3 {
+    top: 900px;
 }
