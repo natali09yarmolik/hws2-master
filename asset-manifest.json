@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/natali09yarmolik/hws2-master.git/static/css/main.09df1a8d.css",
+    "main.js": "/natali09yarmolik/hws2-master.git/static/js/main.d82ca994.js",
+    "static/js/787.66cb4309.chunk.js": "/natali09yarmolik/hws2-master.git/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/natali09yarmolik/hws2-master.git/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/natali09yarmolik/hws2-master.git/index.html",
+    "main.09df1a8d.css.map": "/natali09yarmolik/hws2-master.git/static/css/main.09df1a8d.css.map",
+    "main.d82ca994.js.map": "/natali09yarmolik/hws2-master.git/static/js/main.d82ca994.js.map",
+    "787.66cb4309.chunk.js.map": "/natali09yarmolik/hws2-master.git/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09df1a8d.css",
+    "static/js/main.d82ca994.js"
+  ]
+}
