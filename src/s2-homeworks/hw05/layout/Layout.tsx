@@ -1,6 +1,7 @@
 import React, { FC, ReactNode, useEffect, useState } from 'react'
 import { Header } from '../header/Header'
 import { Sidebar } from '../sidebar/Sidebar'
+import {NavLink} from "react-router-dom";
 
 type PropsType = {
     children: ReactNode
@@ -22,6 +23,7 @@ export const Layout: FC<PropsType> = ({ children }) => {
             <Header handleOpen={handleOpen} />
             <div>
                 {/*страницы*/}
+                <NavLink to={'/PreJunior'}/>
                 {children}
             </div>
         </>
