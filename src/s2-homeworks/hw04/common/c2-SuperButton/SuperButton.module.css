@@ -3,11 +3,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 5px 24px;
+
     gap: 10px;
     width: 133px;
     height: 30px;
     left: 574px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
     border-radius: 3px;
 }
 
@@ -17,12 +22,21 @@
 }
 
 .secondary {
-    width: 176px;
+    width: 129px;
+    height: 30px;
+
+    color: #0066CC;
     border: 1px solid #0066CC;
+    border-radius: 3px;
 }
 
 .default {
+    width: 116px;
+    height: 30px;
     background: #0066CC;
+
+    color: #FFFFFF;
+
 }
 
 .red {
@@ -38,7 +52,7 @@
 }
 
 .secondary:hover {
-    background: #f1ee40;
+
 }
 
 .default:active {
@@ -46,7 +60,7 @@
 }
 
 .secondary:active {
-    background: #a6a306;
+
 }
 
 .red:active {
