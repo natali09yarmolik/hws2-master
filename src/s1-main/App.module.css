@@ -18,9 +18,7 @@
     position: absolute;
     width: 165px;
     height: 27px;
-    left: 70px;
-    top: 107px;
-
+    margin-left: 70px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -36,4 +34,7 @@
 }
 .hwTitle4 {
     top: 1250px;
+}
+.hwTitle7 {
+    top: 373px;
 }
