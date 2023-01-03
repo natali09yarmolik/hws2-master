@@ -1,23 +1,68 @@
 .item {
+    width: 606px;
+    height: 16px;
+    padding-right: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #E5E5E5;
+
 }
 
 .item:last-of-type {
+    border-bottom: none;
 }
-
 .users {
-}
+    width: 606px;
+    height: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
 
+}
 .buttonsContainer {
+    width: 369px;
+    height: 30px;
+    margin-left: 237px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }
-
 .container {
-}
+    width: auto;
+    height: 336px;
 
+}
 .thead {
-}
+    width: 606px;
+    height: 36px;
+    background-color: #E5E5E5;
 
+}
 .nameCol {
-}
+    padding-left: 17px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 
+}
+.item .nameCol{
+    font-weight: 400;
+}
 .ageCol {
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 600;
+
 }
