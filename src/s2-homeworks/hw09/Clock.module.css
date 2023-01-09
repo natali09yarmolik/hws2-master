@@ -1,14 +1,35 @@
 .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+    gap: 21px;
 }
 
 .clock {
+    width: 187px;
+    height: 110px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
-
 .watch {
+    width: 174px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
 }
 
 .watch strong {
+    font-weight: 600;
 }
 
 .more {
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
