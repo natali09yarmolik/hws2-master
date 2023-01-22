@@ -1,8 +1,36 @@
 .container {
+    width: 224px;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
 }
 
-.wrapper {
+.wrapper:first-of-type {
+    width: 95%;
+    height: 20px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+.wrapper{
+    width: 95%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
 }
 
-.number {
+.number:first-of-type{
+   margin-right: 12px;
+
+}
+.number:last-child {
+    margin-left: 12px;
 }
