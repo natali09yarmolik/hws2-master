@@ -12,9 +12,9 @@ function JuniorPlus() {
         <div id={'hw5-page-junior-plus'}>
             <HW10 />
             <HW11 />
-            <Provider store={store}>
+
                 <HW12 />
-            </Provider>
+
 
             {/*<HW13 />*/}
         </div>

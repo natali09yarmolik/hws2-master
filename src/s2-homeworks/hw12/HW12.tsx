@@ -38,10 +38,10 @@ const HW12 = () => {
 
     useEffect(() => {
             document.documentElement.dataset.theme = themeId + ''
-        //setTheme([...themes.map(el=>el.id==themeId?{...el, id:1}: el.id==1? {...el, id:+themeId}:el)])
+
 
    }, [themeId])
-    //console.log(theme[themeId-1].id)
+
     return (
         <div id={'hw12'}>
             <div id={'hw12-text'} className={s2.hwTitle}>
