@@ -1,9 +1,9 @@
-import React, {useEffect, useReducer, useState} from 'react'
+import React, {useEffect} from 'react'
 import s from './HW12.module.css'
 import s2 from '../../s1-main/App.module.css'
 import SuperSelect from '../hw07/common/c5-SuperSelect/SuperSelect'
 import {useDispatch, useSelector} from 'react-redux'
-import {changeThemeId, initStateType, themeReducer} from './bll/themeReducer'
+import {changeThemeId,  themeReducer} from './bll/themeReducer'
 import {combineReducers, legacy_createStore} from "redux";
 import {log} from "util";
 
@@ -27,12 +27,12 @@ type themeType={
 const HW12 = () => {
     // взять ид темы из редакса
     const themeId = useSelector<AppRootStateType, number>(state => state.theme.themeId)
-    console.log('themeId', themeId)
+    //console.log('themeId', themeId)
     //const [theme, setTheme]=useState<themeType[]>([{id: 1, value: 'light'}])
     const dispatch=useDispatch()
 
     const change = (id: number) => { // дописать функцию
-
+        console.log('id', id)
           dispatch(changeThemeId(id))
     }
 
