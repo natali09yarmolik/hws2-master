@@ -19,5 +19,26 @@ html {
 }
 
 .select {
+    width: 171px;
+    height: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: var(--background);
+    color: var(--color);
 
+}
+span{
+    display: block;
+    height: 17px;
+    width: 111px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 6px;
+    color: var(--color);
 }

@@ -8,8 +8,9 @@ position: absolute;
 
 .header {
     position: relative;
-    width: 1280px;
+   /* width: 1280px;*/
     height: 60px;
+    background-color: #ffffff;
 }
 
 .header h1 {
