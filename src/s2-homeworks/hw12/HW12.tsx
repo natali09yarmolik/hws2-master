@@ -26,7 +26,8 @@ type themeType={
 }
 const HW12 = () => {
     // взять ид темы из редакса
-    const themeId = useSelector<AppRootStateType, number>(state => state.themeId.themeId)
+    const themeId = useSelector<AppRootStateType, number>(state => state.theme.themeId)
+    console.log('themeId', themeId)
     //const [theme, setTheme]=useState<themeType[]>([{id: 1, value: 'light'}])
     const dispatch=useDispatch()
 
@@ -70,7 +71,7 @@ const HW12 = () => {
 export default HW12
 
 const rootReducer = combineReducers({
-    themeId: themeReducer
+    theme: themeReducer
 }as const)
 export const store = legacy_createStore(rootReducer)
 export type AppRootStateType = ReturnType<typeof rootReducer>

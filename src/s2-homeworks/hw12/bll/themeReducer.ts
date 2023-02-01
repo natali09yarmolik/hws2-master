@@ -11,7 +11,6 @@ export const themeReducer = (state:initStateType = initState, action: changeThem
     // fix any
     switch (action.type) {
         case "SET_THEME_ID":{
-
             return {...state, themeId:action.id}
         }
         // дописать
