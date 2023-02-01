@@ -54,13 +54,9 @@ const HW12 = () => {
                 <SuperSelect
                     id={'hw12-select-theme'}
                     className={s.select}
-                    options={themes}
                     value={themeId}
-                   //value={theme[themeId-1].id}
+                    options={themes}
                     onChangeOption={change}
-
-                    // сделать переключение тем
-
                />
 
             </div>
