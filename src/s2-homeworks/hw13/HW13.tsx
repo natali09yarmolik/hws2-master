@@ -7,6 +7,7 @@ import success200 from './images/200.svg'
 import error400 from './images/400.svg'
 import error500 from './images/500.svg'
 import errorUnknown from './images/error.svg'
+import message from "../hw01/message/Message";
 
 /*
 * 1 - дописать функцию send
@@ -37,33 +38,32 @@ const HW13 = () => {
             .then((res) => {
                 setCode('Код 200!')
                 setImage(success200)
-                setText('...всё ок)\n'+
-                    'код 200 - обычно означает что скорее всего всё ок)')
-
+                setText(res.data.errorText)
+                setInfo(res.data.info)
             })
+
             .catch((e) => {
                 if(e.response.status===500){
                     setCode('Ошибка 500!')
                     setImage(error500)
-                    setText('эмитация ошибки на сервере\nошибка 500 - ' +
-                                  'обычно означает что что-то сломалось на\nсервере, ' +
-                                  'например база данных)')
-
+                    setText(e.response.data.errorText)
+                    setInfo(e.response.data.info)
                 }
                 else if(e.response.status===400){
                     setCode('Ошибка 400!')
                     setImage(error400)
-                    setText('Ты не отправил success в body вообще!\n' +
-                        'ошибка 400 - обычно означает что скорее всего фронт\n' +
-                        'отправил что-то не то на бэк!')
-                }
+                    setText(e.response.data.errorText)
+                    setInfo(e.response.data.info)
+                     }
                 else if(e.response.status===0){
+                    console.log(e)
                     setCode('Error!')
                     setImage(errorUnknown)
-                    setText('Network Error\nAxiosError')
+                    setText(e.message)
+                    setInfo(e.name)
                 }
             }).finally(()=>{
-            setInfo('')
+
             setDisable(false)
         })
     }
