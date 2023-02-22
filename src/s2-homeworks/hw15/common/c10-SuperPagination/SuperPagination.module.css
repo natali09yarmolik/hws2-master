@@ -1,0 +1,32 @@
+.pagination {
+    width: 606px;
+    height: 17px;
+    margin-bottom: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text1 {
+    width: 63px;
+    margin-left: 32px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0D0B0C;
+    text-align: center;
+}
+.text2 {
+    margin-left: 6px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0D0B0C;
+    text-align: center;
+}
